@@ -32,9 +32,6 @@ Per Minute Call Analysis: Count the number of API calls made per minute.
 
 # Status Code Analysis: 
 
-Count the total number of API calls for each HTTP status code.
-
-Status Code Analysis
 To analyze the total number of API calls for each HTTP status code, run the following command:
 
 ```bash node status-code-analysis.js```
