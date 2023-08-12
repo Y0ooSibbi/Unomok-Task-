@@ -34,6 +34,11 @@ Per Minute Call Analysis: Count the number of API calls made per minute.
 
 Count the total number of API calls for each HTTP status code.
 
+Status Code Analysis
+To analyze the total number of API calls for each HTTP status code, run the following command:
+
+```bash node status-code-analysis.js```
+
 # Endpoint Analysis
 
 To analyze how many times each API endpoint was called, run the following command:
@@ -46,10 +51,6 @@ To analyze the number of API calls made per minute, run the following command:
 
 ```bash node per-minute-analysis.js```
 
-Status Code Analysis
-To analyze the total number of API calls for each HTTP status code, run the following command:
-
-```bash node status-code-analysis.js```
 # Additional Notes
 - Make sure to place your log files in the 'logs' folder before running the analysis.
 - The output will be displayed in a formatted table.
